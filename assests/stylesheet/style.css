@@ -1,0 +1,237 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* custom styles */
+body{
+    line-height: 1.5;
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+    margin: 20px;
+}
+.section{
+    text-align: center;
+}
+/* header styles */
+.header{
+background-color:#0B204C;
+text-align: center;
+font-size: 36px;
+width:1300px; 
+height: 80px;
+margin: auto;
+}
+
+.box{
+    text-align: center;
+    margin: 20px;
+    font-size: 44px;
+}
+h2{
+    font-size:36px ;
+    margin: 32px 0;
+    text-align: center;
+}
+.box{
+    text-align: center;
+    border-radius: 20px;
+
+    width:200px;
+    height: 200px;
+    background-color:#99D8CA;
+    border: 18px solid #5873E2 ;
+    outline: 5px solid black;
+    box-shadow: 0 0 0 22px rgb(137,237,169);
+    margin:0 auto;
+    margin-bottom: 100px;
+}
+.marker{
+    text-align: center;
+}
+.marker-container{
+        margin: 0 16px;
+        display: inline-block;
+        
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color:#99D8CA;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:10px;
+}
+.padding{
+    background-color:rgb(137,237,169) ;
+}
+.border{
+    background-color: black ;}
+.margin{
+        background-color: #5873E2  ;
+    }
+hr{
+    width:500px;
+    border-color: grey;
+    border-style: dashed;
+    margin:20px auto;
+}
+
+.box-container{
+    width: 660px;
+    border: 2px solid black;
+    margin:32px auto;
+font-size: 0;
+}
+.rect{
+    width: 200px;
+    height: 180px;
+    background-color: #DAE0FA;
+    margin: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+.border{
+    border: 2px solid black;
+    
+}
+
+
+/* blog styles */
+
+.continer{
+    width: 1000px;
+    /* border:  1px solid green; */
+    margin: auto;
+  }
+  .header
+  {
+      text-align:center;
+      font-size:36px;
+      height:80px;
+      width:1000px;
+      margin: auto;
+      background-color: rgb(7,21,76);
+  
+  }
+  .anchor{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px;
+  }
+  
+  .active{
+    color: green;
+  }
+  .inactive{
+      color: white;
+  }
+  
+  .article-image{
+      width: 450px;
+      height: 350px;
+      float: left;
+
+  }
+  img{
+    width: 450px;
+    height: 350px;
+    display: inline;
+  }
+  p{
+      color: #000;
+      font-size: 16px;
+  }
+  .article-image-description{
+      width: 500px;
+      float: right;
+      height: 350px;
+  }
+.article-heading{
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+.btn{
+    border: none;
+    background: none;
+    background-color: rgb(25,187,61);
+    border-radius: 15px;
+    padding: 8px 25px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  .article-link{
+      text-decoration: none;
+      color: white;
+
+  }
+  .clear{
+      clear:both;
+  }
+  h2{
+      font-size: 32px;
+  }
+  h3{
+      font-size: 28px;
+      color: rgb(23, 36, 82);
+  }
+
+  .article-two{
+      margin-top: 30px;
+  }
+.more{
+    color: rgb(25, 187, 62);
+}
